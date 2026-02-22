@@ -38,7 +38,7 @@
     "react": "19.1.0"
   },
   "dependencies": {
-    "@plasius/entity-manager": "^1.0.4",
+    "@plasius/entity-manager": "^1.0.5",
     "@plasius/schema": "^1.2.1"
   },
   "devDependencies": {
