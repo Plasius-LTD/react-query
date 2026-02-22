@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@plasius/entity-manager": "^1.0.4",
-    "@plasius/schema": "^1.0.0"
+    "@plasius/schema": "^1.2.1"
   },
   "devDependencies": {
     "@types/react": "^19.1.8",
