@@ -9,16 +9,20 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 ## [Unreleased]
 
 - **Added**
-  - (placeholder)
+  - Added hook and cache unit tests for `useQuery`, `useMutation`, `useQueryClient`, and `globalCache`.
+  - Added ESLint flat configuration (`eslint.config.js`) for ESLint v10 compatibility.
 
 - **Changed**
-  - (placeholder)
+  - Tightened CI to run lint, typecheck, runtime dependency audit, build, and coverage checks on push/PR.
+  - Updated Vitest configuration to `jsdom`, disabled `passWithNoTests`, and added coverage thresholds.
+  - Added explicit `typecheck` script and `license` metadata in `package.json`.
 
 - **Fixed**
-  - (placeholder)
+  - Restored working lint execution for modern ESLint versions.
+  - Removed false-positive coverage pass condition by requiring real test files.
 
 - **Security**
-  - (placeholder)
+  - Enforced runtime dependency audit in package CI using `npm audit --omit=dev --audit-level=high`.
 
 ## [1.0.7] - 2026-02-28
 

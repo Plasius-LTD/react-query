@@ -27,9 +27,16 @@ import { useQuery, useMutation, useQueryClient } from "@plasius/react-query";
 
 ```bash
 npm ci
+npm run lint
+npm run typecheck
 npm run build
 npm test
 ```
+
+## Quality Gates
+
+- CI enforces `lint`, `typecheck`, runtime dependency audit (`npm audit --omit=dev --audit-level=high`), tests, and coverage gate (line coverage >= 80%).
+- Local coverage checks run via `npm run test:coverage`.
 
 ## Governance
 
