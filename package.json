@@ -1,6 +1,6 @@
 {
   "name": "@plasius/react-query",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "./dist-cjs/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
@@ -40,8 +40,8 @@
     "react": "^19.1.0"
   },
   "dependencies": {
-    "@plasius/entity-manager": "^1.0.5",
-    "@plasius/schema": "^1.2.1"
+    "@plasius/entity-manager": "^1.0.6",
+    "@plasius/schema": "^1.2.2"
   },
   "devDependencies": {
     "@types/react": "^19.1.8",
