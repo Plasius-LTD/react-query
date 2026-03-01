@@ -20,6 +20,20 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 - **Security**
   - (placeholder)
 
+## [1.0.11] - 2026-03-01
+
+- **Added**
+  - (placeholder)
+
+- **Changed**
+  - (placeholder)
+
+- **Fixed**
+  - (placeholder)
+
+- **Security**
+  - (placeholder)
+
 ## [1.0.9] - 2026-03-01
 
 - **Added**
@@ -137,7 +151,7 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ---
 
-[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.9...HEAD
+[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.11...HEAD
 
 ## [1.0.0] - 2026-02-11
 
@@ -159,3 +173,4 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 [1.0.7]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.7
 [1.0.8]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.8
 [1.0.9]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.9
+[1.0.11]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.11
