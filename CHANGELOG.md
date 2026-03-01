@@ -15,6 +15,20 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - (placeholder)
 
 - **Fixed**
+  - (placeholder)
+
+- **Security**
+  - (placeholder)
+
+## [1.0.9] - 2026-03-01
+
+- **Added**
+  - (placeholder)
+
+- **Changed**
+  - (placeholder)
+
+- **Fixed**
   - Enforced CommonJS runtime compatibility for dual-build output by generating and validating `dist-cjs/package.json` (`type: commonjs`) during build and package verification.
   - (placeholder)
 
@@ -123,7 +137,7 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ---
 
-[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.8...HEAD
+[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.9...HEAD
 
 ## [1.0.0] - 2026-02-11
 
@@ -144,3 +158,4 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 [1.0.6]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.6
 [1.0.7]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.7
 [1.0.8]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.8
+[1.0.9]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.9
