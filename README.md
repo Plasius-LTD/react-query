@@ -17,6 +17,12 @@ Public package for lightweight query, mutation, and cache hooks used in Plasius 
 npm install @plasius/react-query
 ```
 
+## Module formats
+
+This package publishes dual ESM and CJS artifacts.
+When CJS output is emitted under `dist-cjs/*.js` with `type: module`, `dist-cjs/package.json` is generated with `{ "type": "commonjs" }` to ensure Node `require(...)` compatibility.
+
+
 ## Usage
 
 ```ts
@@ -27,9 +33,16 @@ import { useQuery, useMutation, useQueryClient } from "@plasius/react-query";
 
 ```bash
 npm ci
+npm run lint
+npm run typecheck
 npm run build
 npm test
 ```
+
+## Quality Gates
+
+- CI enforces `lint`, `typecheck`, runtime dependency audit (`npm audit --omit=dev --audit-level=high`), tests, and coverage gate (line coverage >= 80%).
+- Local coverage checks run via `npm run test:coverage`.
 
 ## Governance
 

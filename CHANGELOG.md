@@ -20,7 +20,7 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 - **Security**
   - (placeholder)
 
-## [1.0.8] - 2026-03-01
+## [1.0.11] - 2026-03-01
 
 - **Added**
   - (placeholder)
@@ -33,6 +33,39 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 - **Security**
   - (placeholder)
+
+## [1.0.9] - 2026-03-01
+
+- **Added**
+  - (placeholder)
+
+- **Changed**
+  - (placeholder)
+
+- **Fixed**
+  - Enforced CommonJS runtime compatibility for dual-build output by generating and validating `dist-cjs/package.json` (`type: commonjs`) during build and package verification.
+  - (placeholder)
+
+- **Security**
+  - (placeholder)
+
+## [1.0.8] - 2026-02-28
+
+- **Added**
+  - Added hook and cache unit tests for `useQuery`, `useMutation`, `useQueryClient`, and `globalCache`.
+  - Added ESLint flat configuration (`eslint.config.js`) for ESLint v10 compatibility.
+
+- **Changed**
+  - Tightened CI to run lint, typecheck, runtime dependency audit, build, and coverage checks on push/PR.
+  - Updated Vitest configuration to `jsdom`, disabled `passWithNoTests`, and added coverage thresholds.
+  - Added explicit `typecheck` script and `license` metadata in `package.json`.
+
+- **Fixed**
+  - Restored working lint execution for modern ESLint versions.
+  - Removed false-positive coverage pass condition by requiring real test files.
+
+- **Security**
+  - Enforced runtime dependency audit in package CI using `npm audit --omit=dev --audit-level=high`.
 
 ## [1.0.7] - 2026-02-28
 
@@ -118,7 +151,7 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ---
 
-[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.8...HEAD
+[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.11...HEAD
 
 ## [1.0.0] - 2026-02-11
 
@@ -139,3 +172,5 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 [1.0.6]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.6
 [1.0.7]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.7
 [1.0.8]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.8
+[1.0.9]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.9
+[1.0.11]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.11

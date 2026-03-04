@@ -1,12 +1,13 @@
 {
   "name": "@plasius/react-query",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "main": "./dist-cjs/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
+    "typecheck": "npm run check",
     "checktests": "tsc -p tsconfig.tests.json",
     "check": "tsc --noEmit",
     "test:coverage": "vitest run --coverage",
@@ -17,13 +18,13 @@
     "clean": "rimraf dist-cjs dist tsconfig.tsbuildinfo",
     "reset:clean": "rm -rf node_modules package-lock.json && npm run clean",
     "audit:ts": "tsc --noEmit --pretty",
-    "audit:eslint": "eslint \"{src,apps,packages}/**/*.{ts,tsx}\" --max-warnings=0 --ext .ts,.tsx",
+    "audit:eslint": "eslint . --max-warnings=0",
     "audit:deps": "npm ls --all --omit=optional --omit=peer > /dev/null 2>&1 || true",
-    "audit:npm": "npm audit --audit-level=moderate || true",
+    "audit:npm": "npm audit --audit-level=high --omit=dev",
     "audit:test": "vitest run --coverage",
     "audit:all": "npm-run-all -l audit:ts audit:eslint audit:deps audit:npm audit:test",
-    "build:cjs": "tsc -p tsconfig.json --module commonjs --moduleResolution node --outDir dist-cjs --tsBuildInfoFile dist-cjs/tsconfig.tsbuildinfo",
-    "lint": "eslint .",
+    "build:cjs": "tsc -p tsconfig.json --module commonjs --moduleResolution node --outDir dist-cjs --tsBuildInfoFile dist-cjs/tsconfig.tsbuildinfo && node scripts/write-cjs-package-json.cjs",
+    "lint": "eslint . --max-warnings=0",
     "prepare": "npm run build",
     "pack:check": "node scripts/verify-public-package.cjs",
     "prepublishOnly": "npm run build && npm run pack:check"
@@ -44,6 +45,8 @@
     "@plasius/schema": "^1.2.2"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@testing-library/react": "^16.3.0",
     "@types/react": "^19.1.8",
     "@types/uuid": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^8.56.0",
@@ -51,8 +54,11 @@
     "@vitest/coverage-v8": "^4.0.18",
     "ajv": "^6.12.6",
     "eslint": "^10.0.1",
+    "globals": "^17.3.0",
+    "jsdom": "^28.1.0",
     "npm-run-all": "^1.1.3",
-    "react": "19.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.1.0",
     "rimraf": "^6.0.1",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
@@ -100,6 +106,7 @@
   "engines": {
     "node": ">=22.12"
   },
+  "license": "MIT",
   "overrides": {
     "minimatch": "^10.2.1"
   }
