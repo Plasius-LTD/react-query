@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@plasius/entity-manager": "^1.0.10",
-    "@plasius/schema": "^1.2.4"
+    "@plasius/schema": "^1.2.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
