@@ -12,7 +12,9 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - (placeholder)
 
 - **Changed**
-  - (placeholder)
+  - Refreshed internal and development dependencies to the latest stable compatible releases.
+  - Retained TypeScript 6.x because the current `@typescript-eslint` parser and plugin require TypeScript `<6.1.0`.
+  - Declared the Node type package required by the repository's test TypeScript configuration.
 
 - **Fixed**
   - (placeholder)
