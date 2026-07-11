@@ -12,6 +12,20 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - (placeholder)
 
 - **Changed**
+  - (placeholder)
+
+- **Fixed**
+  - (placeholder)
+
+- **Security**
+  - (placeholder)
+
+## [1.0.22] - 2026-07-11
+
+- **Added**
+  - (placeholder)
+
+- **Changed**
   - Refreshed internal and development dependencies to the latest stable compatible releases.
   - Retained TypeScript 6.x because the current `@typescript-eslint` parser and plugin require TypeScript `<6.1.0`.
   - Declared the Node type package required by the repository's test TypeScript configuration.
@@ -252,7 +266,7 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ---
 
-[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.21...HEAD
+[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.22...HEAD
 
 ## [1.0.0] - 2026-02-11
 
@@ -282,3 +296,4 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 [1.0.17]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.17
 [1.0.20]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.20
 [1.0.21]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.21
+[1.0.22]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.22
