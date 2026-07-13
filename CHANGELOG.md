@@ -13,6 +13,20 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 - **Changed**
   - (placeholder)
+
+- **Fixed**
+  - (placeholder)
+
+- **Security**
+  - (placeholder)
+
+## [1.0.23] - 2026-07-13
+
+- **Added**
+  - (placeholder)
+
+- **Changed**
+  - (placeholder)
   - Consume the propagated entity-manager and RFC-remediated schema releases (task #19).
 
 - **Fixed**
@@ -267,7 +281,7 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ---
 
-[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.22...HEAD
+[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.23...HEAD
 
 ## [1.0.0] - 2026-02-11
 
@@ -298,3 +312,4 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 [1.0.20]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.20
 [1.0.21]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.21
 [1.0.22]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.22
+[1.0.23]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.23
