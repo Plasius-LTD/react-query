@@ -1,1 +1,1 @@
-{"root":["./src/globalcache.ts","./src/index.ts","./src/usemutation.ts","./src/usequery.ts","./src/usequeryclient.ts"],"version":"6.0.3"}
+{"root":["./src/globalCache.ts","./src/index.ts","./src/useMutation.ts","./src/useQuery.ts","./src/useQueryClient.ts"],"version":"6.0.3"}
