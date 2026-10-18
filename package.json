@@ -41,8 +41,8 @@
     "react": "^19"
   },
   "dependencies": {
-    "@plasius/entity-manager": "^1.2.6",
-    "@plasius/schema": "^1.4.6"
+    "@plasius/entity-manager": "^1.2.7",
+    "@plasius/schema": "^1.4.7"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
