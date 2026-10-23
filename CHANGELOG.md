@@ -8,6 +8,20 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ## [Unreleased]
 
+- **Added**
+  - (placeholder)
+
+- **Changed**
+  - (placeholder)
+
+- **Fixed**
+  - (placeholder)
+
+- **Security**
+  - (placeholder)
+
+## [1.0.28] - 2026-10-23
+
 - Restore trusted repository-push CI on fixed quarantined self-hosted Linux/X64 capacity, with immutable reviewed branch admission, metadata-only artifact regressions, bounded read-only jobs, reproducible installs and final package checks. Hosted production OIDC publication remains unchanged.
 
 - **Added**
@@ -353,7 +367,7 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ---
 
-[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.27...HEAD
+[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.28...HEAD
 
 ## [1.0.0] - 2026-02-11
 
@@ -389,3 +403,4 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 [1.0.25]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.25
 [1.0.26]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.26
 [1.0.27]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.27
+[1.0.28]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.28
