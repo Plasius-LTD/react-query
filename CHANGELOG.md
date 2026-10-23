@@ -8,6 +8,8 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ## [Unreleased]
 
+- Restore trusted repository-push CI on fixed quarantined self-hosted Linux/X64 capacity, with immutable reviewed branch admission, metadata-only artifact regressions, bounded read-only jobs, reproducible installs and final package checks. Hosted production OIDC publication remains unchanged.
+
 - **Added**
   - (placeholder)
 
