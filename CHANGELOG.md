@@ -8,6 +8,20 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ## [Unreleased]
 
+- **Added**
+  - (placeholder)
+
+- **Changed**
+  - (placeholder)
+
+- **Fixed**
+  - (placeholder)
+
+- **Security**
+  - (placeholder)
+
+## [1.0.29] - 2026-11-22
+
 - Refresh supported npm dependency and security tooling baselines; preserve runtime API contracts (weekly maintenance, 2026-11-22).
 
 - **Added**
@@ -369,7 +383,7 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ---
 
-[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.28...HEAD
+[Unreleased]: https://github.com/Plasius-LTD/react-query/compare/v1.0.29...HEAD
 
 ## [1.0.0] - 2026-02-11
 
@@ -406,3 +420,4 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 [1.0.26]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.26
 [1.0.27]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.27
 [1.0.28]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.28
+[1.0.29]: https://github.com/Plasius-LTD/react-query/releases/tag/v1.0.29
